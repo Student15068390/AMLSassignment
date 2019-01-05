@@ -25,7 +25,7 @@ Containing the codes of all attempts to solve the binary classification challeng
 Where to find all the csv files requested.
 
 - Multiclass_Task:
-Contains the code of both multiclass classification task for Hair_Color recognition WITH and WITHOUT Noise. 
+Contains the code of the multiclass task for Hair_Color recognition both WITH and WITHOUT Noise. 
 
 - Noise_Cleaner:
  Contains the code for the noise cleaning step of the assignment. 
