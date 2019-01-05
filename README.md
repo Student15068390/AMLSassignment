@@ -25,7 +25,7 @@ Containing the codes of all attempts to solve the binary classification challeng
 Where to find all the csv files requested.
 
 - Multiclass_Task:
-Contains the code of the multiclass classification task for Hair_Color recognition.
+Contains the code of both multiclass classification task for Hair_Color recognition WITH and WITHOUT Noise. 
 
 - Noise_Cleaner:
  Contains the code for the noise cleaning step of the assignment. 
@@ -35,9 +35,26 @@ Contains codes of practice work carried prior to tackling the challenge, as well
 
 # Install and Run
 
+In order to run the code, you will need to do the following:
 
-
-
+1. Install Anaconda
+2. Instal Jupyter Notebook
+3. Open Anaconda Prompt (Command Terminal)
+4. Create a python 3.6 virtual environment called *py36*
+> conda create --py36 py36 python=3.6
+5. Verify environment is created
+> conda info -e
+6. Activate the environment
+> conda activate py36
+7. Install all required libraries
+> pip install ...
+8. Verify that all libraries are installed
+> conda list
+9. Open Jupyter Notebook
+> jupyter notebook
+10. Download from GitHub and upload files on jupyter notebook
+11. Check the important parameters section below to adjust directories and other details to your computer
+12. Run the code
 
 # Important Parameters
 
