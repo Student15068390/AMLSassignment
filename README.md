@@ -15,11 +15,11 @@ The repository is composed of the following folders:
 - Binary Tasks: 
 Containing the codes of all attempts to solve the binary classification challenge
 
-**FinalModels_Inception_CleanData** is the most important one. It contains the codes which allowed us to solve our problem and create the required CSV files.
+>**FinalModels_Inception_CleanData** is the most important one. It contains the codes which allowed us to solve our problem and create the required CSV files.
 
-**SVM_Implementation** contains the codes of the SVM Implementations to the binary tasks. These are considered as a benchmark to the other models. 
+>**SVM_Implementation** contains the codes of the SVM Implementations to the binary tasks. These are considered as a benchmark to the other models. 
 
-**WithNoise_InceptionModel** contains the same codes as the FinalModels file above, however these were processed with Noise included in the dataset.
+>**WithNoise_InceptionModel** contains the same codes as the FinalModels file above, however these were processed with Noise included in the dataset.
 
 - CSV_Results:
 Where to find all the csv files requested.
