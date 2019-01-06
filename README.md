@@ -75,16 +75,17 @@ _img = testimgs[1].split('/')
 As the directory that I run the code on has the structure shown above, in the code I choose to split and store the sixth value, which is the value of the filename. When changing the directory, please make sure to change the number accordingly. 
 
 _noise_images = []
-noise_images.append(image[6])_ <--------
+
+_noise_images.append(image[6])_ <--------
 
 ### In AMLS_ all classification tasks
 
 Please make sure to input the right directory on your computer prior to running the code.
 This can be done at the start of the code in the following lines:
 
-_main_folder = 'C://Users/xxxxxx/Desktop/' 
+_main_folder = 'C://Users/xxxxxx/Desktop/'_
 
-images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
+_images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
 
 
 
