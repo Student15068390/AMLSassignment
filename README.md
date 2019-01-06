@@ -75,7 +75,7 @@ Please make sure to input the right directory on your computer prior to running 
 This can be done at the start of the code in the following lines:
 
 _main_folder = 'C://Users/xxxxxx/Desktop/'
-images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
+ images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
 
 
 
