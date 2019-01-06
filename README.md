@@ -58,6 +58,27 @@ In order to run the code, you will need to do the following:
 
 # Important Parameters
 
+### In AMLS_NoiseCleaner
+
+Please make sure to change the right directory according to the path on your computer. 
+If you decide to change any of the folders name, please do change the name throughout the code as well. 
+
+_basepath = "C://Users/xxxxx/Desktop/"          
+class1 = os.listdir(basepath + "Person/")    
+class2 = os.listdir(basepath + "Background/")
+class3 = os.listdir(basepath + "test/")_
+
+
+### In AMLS_ all classification tasks
+
+Please make sure to input the right directory on your computer prior to running the code.
+This can be done at the start of the code in the following lines:
+
+_main_folder = 'C://Users/xxxxxx/Desktop/'
+images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
+
+
+
 
 
 
