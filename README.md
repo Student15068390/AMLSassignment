@@ -74,7 +74,7 @@ _img = testimgs[1].split('/')
 
 As the directory that I run the code on has the structure shown above, in the code I choose to split and store the sixth value, which is the value of the filename. When changing the directory, please make sure to change the number accordingly. 
 
-_noise_images = []
+_noise_images = []_
 
 _noise_images.append(image[6])_ <--------
 
