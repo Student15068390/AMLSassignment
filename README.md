@@ -25,8 +25,10 @@ Where to find all the csv files requested.
 - Noise_Cleaner:
  Contains the code for the noise cleaning step of the assignment. 
 
-- Supplementary_Work
+- Supplementary_Work: 
 Contains codes of practice work carried prior to tackling the challenge, as well as other attempts to solve the challenge by using different classifiers such as the Haar or LBP classifiers. 
+
+- Attributes_and_Partitions_List: Contains all the excel files with the attributes of the images as well as the ones used for data partitioning.
 
 # Install and Run
 
@@ -85,6 +87,10 @@ _images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
 Furthermore, please make sure to have the right attribute_list and list_eval_partition chosen for the specific tasks carried. 
 For faster training, you could use any of the csv files ending with **mediumset**. 
 Any attribute list or partition list starting with **clean** refers to the csv files after removing the noise. 
+
+_df_attr = pd.read_csv('clean_attribute_list_mediumset.csv')_
+
+_df_partition = pd.read_csv('list_eval_partition_mediumset.csv')_
 
 
 
