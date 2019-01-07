@@ -42,7 +42,7 @@ In order to run the code, you will need to do the following:
 6. Activate the environment
 > conda activate py36
 7. Install all required libraries
-> pip install ...
+> pip install ... (all libraries present at the beginning of code to run)
 8. Verify that all libraries are installed
 > conda list
 9. Open Jupyter Notebook
