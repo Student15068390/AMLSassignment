@@ -12,20 +12,17 @@ The aim of this repository is to demonstrate how to successfully clean our datas
 ### Repository composition
 
 The repository is composed of the following folders:
-- Binary Tasks: 
-Containing the codes of all attempts to solve the binary classification challenge
+- Classification_Tasks: 
+Containing the codes of all attempts to solve the classification challenge, including both binary and multiclass tasks. 
 
->**FinalModels_Inception_CleanData** is the most important one. It contains the codes which allowed us to solve our problem and create the required CSV files.
+>**AMLS_Implementation** are the most important ones. They contains the codes which allowed us to solve our problem and create the required CSV files.
 
->**SVM_Implementation** contains the codes of the SVM Implementations to the binary tasks. These are considered as a benchmark to the other models. 
+>**SVM_Implementation** are the codes of the SVM Implementations to the binary tasks. These are considered as a benchmark to the other models. 
 
->**WithNoise_InceptionModel** contains the same codes as the FinalModels file above, however these were processed with Noise included in the dataset.
+>**WithNoise_Implementation** are the same codes as the AMLS ones above, however these were processed with Noise included in the dataset.
 
 - CSV_Results:
 Where to find all the csv files requested.
-
-- Multiclass_Task:
-Contains the code of the multiclass task for Hair_Color recognition both WITH and WITHOUT Noise. 
 
 - Noise_Cleaner:
  Contains the code for the noise cleaning step of the assignment. 
@@ -86,6 +83,10 @@ This can be done at the start of the code in the following lines:
 _main_folder = 'C://Users/xxxxxx/Desktop/'_
 
 _images_folder = main_folder +'clean_AMLSdataset_mediumset/'_
+
+Furthermore, please make sure to have the right attribute_list and list_eval_partition chosen for the specific tasks carried. 
+For faster training, you could use any of the csv files ending with **mediumset**. 
+Any attribute list or partition list starting with **clean** refers to the csv files after removing the noise. 
 
 
 
